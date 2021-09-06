@@ -1,0 +1,50 @@
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+
+}
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+#container{
+	display: flex;
+	flex-direction: column; 
+	justify-content: center;
+	align-items: center;
+	background: #1C1E5A;
+	color: white;
+	width: 220px;
+	height: 230px;
+	border-radius: 5px;
+}
+#buttongroup{
+	display: inline-block;
+	
+}
+.text, .count{
+	font-size: 1.5rem;
+	letter-spacing: .1em;
+}
+
+button{
+	padding: 12px;
+	margin: 10px;
+	font-size: 1.5rem;
+	color: #1C1E5A;
+	background: white;
+	border: none;
+	border-radius: 50px;
+}
+.decr{
+	width: 36px;
+}
+
+.name{
+	color: #A4A300;
+	font-weight: bold;
+}
