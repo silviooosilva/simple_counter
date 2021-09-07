@@ -6,7 +6,7 @@ let count = 0;
 
 incr.addEventListener("click",()=> {
 	
-	count = count+(-1)
+	count = count+(1)
 	counter.innerHTML = count;
 	
 });
